@@ -1,0 +1,22 @@
+{
+  "name": "angularjs",
+  "homepage": "https://github.com/mjcasas2110/angularjs",
+  "authors": [
+    "Manuel Jordi Casas <mjcasas@szicom.com.ar>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "animate.css": "^3.5.2"
+  }
+}
