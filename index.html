@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Content section -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="../bower_components/animate.css/animate.css" rel="stylesheet">
+    <link href="site.css" rel="stylesheet" />
+    <title>Calculadora</title>
+</head>
+<body ng-app="myCalc">
+    <div ng-controller="mainCtrl">
+		<h2 class="site__title mega">Calculadora 1</h2>
+		<div calculadora id="calculadora1">Hola mundo</div>
+		<p></p>
+		<hr/>
+		<h2 class="site__title mega">Calculadora 2</h2>
+		<calculadora id="calculadora2" class="pull-right"></calculadora>
+	</div>
+	
+	<!-- Script section -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="myCalc.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#calculadora1").addClass('animated bounceInLeft');
+			$("#calculadora2").addClass('animated bounceInRight');
+		});
+	</script>
+</body>
+</html>
